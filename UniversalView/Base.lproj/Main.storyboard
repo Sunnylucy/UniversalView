@@ -33,7 +33,62 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="181" y="342"/>
+            <point key="canvasLocation" x="371" y="298"/>
+        </scene>
+        <!--Main Controller-->
+        <scene sceneID="3Zh-Aw-JoV">
+            <objects>
+                <viewController storyboardIdentifier="mainController" id="BOA-LA-J4p" customClass="MainController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FP3-Sq-AQY"/>
+                        <viewControllerLayoutGuide type="bottom" id="IXu-nb-z3d"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="igd-Hx-AnD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yb6-Qy-CNl">
+                                <rect key="frame" x="0.0" y="64" width="320" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="228-ac-IZe">
+                                        <rect key="frame" x="0.0" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag1"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TtO-Kn-Ix4">
+                                        <rect key="frame" x="240" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag4"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydH-fc-cd7">
+                                        <rect key="frame" x="80" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag2"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCB-21-zrO">
+                                        <rect key="frame" x="160" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag3"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75090751259999999" green="0.66687977330000003" blue="0.16677014430000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XB2-OW-9wV">
+                                <rect key="frame" x="0.0" y="114" width="320" height="518"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" image="YES"/>
+                        </accessibility>
+                    </view>
+                    <connections>
+                        <outlet property="m_BtnPage1" destination="228-ac-IZe" id="fte-sy-hgM"/>
+                        <outlet property="m_BtnPage2" destination="ydH-fc-cd7" id="eSt-E6-nog"/>
+                        <outlet property="m_ScrollView" destination="XB2-OW-9wV" id="Cxf-6A-75L"/>
+                        <outlet property="m_btnPage3" destination="SCB-21-zrO" id="k61-RA-A0L"/>
+                        <outlet property="m_btnPage4" destination="TtO-Kn-Ix4" id="gDe-jj-6Rw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JPN-2P-POv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="35" y="298"/>
         </scene>
     </scenes>
 </document>

@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Controller-->
         <scene sceneID="EHf-IW-A2E">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainController" id="01J-lp-oVM" customClass="MainController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
@@ -16,16 +16,50 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Yg-6Q-g7E">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ug4-8d-uat">
+                                        <rect key="frame" x="0.0" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag1"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAK-c1-Lej">
+                                        <rect key="frame" x="240" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag4"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VA6-HZ-ZUG">
+                                        <rect key="frame" x="80" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag2"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hvi-Jc-Aow">
+                                        <rect key="frame" x="160" y="9" width="80" height="38"/>
+                                        <state key="normal" title="Tag3"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75090751259999999" green="0.66687977330000003" blue="0.16677014430000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZN-QM-4BT">
+                                <rect key="frame" x="0.0" y="50" width="320" height="518"/>
+                            </scrollView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <accessibility key="accessibilityConfiguration">
                             <accessibilityTraits key="traits" image="YES"/>
                         </accessibility>
                     </view>
+                    <connections>
+                        <outlet property="m_BtnPage1" destination="Ug4-8d-uat" id="9nG-XD-Tjr"/>
+                        <outlet property="m_BtnPage2" destination="VA6-HZ-ZUG" id="NNg-xQ-Nza"/>
+                        <outlet property="m_ScrollView" destination="LZN-QM-4BT" id="Edg-Lf-5Go"/>
+                        <outlet property="m_btnPage3" destination="Hvi-Jc-Aow" id="fFQ-iz-B9V"/>
+                        <outlet property="m_btnPage4" destination="mAK-c1-Lej" id="afk-Nj-WOK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="28.266666666666666" y="355"/>
+            <point key="canvasLocation" x="0.0" y="303"/>
         </scene>
     </scenes>
 </document>

@@ -140,7 +140,7 @@
 
 -(void)Login{
     NSLog(@"登录");
-    MainController *fv = [[MainController alloc] init];
+    MainController *fv = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"mainController"];
     [self.navigationController pushViewController:fv animated:YES];
 }
 

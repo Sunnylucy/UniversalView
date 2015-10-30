@@ -1,9 +1,10 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4680C418CD5C188F08C8A0DE8DD418B095564232+++412BB86",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
-    "3d598fef-304e-46d8-940e-79c4e810d450++3018+++DE0F548" : {
+    "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++F66DD92" : {
 
     },
-    "6a9fa6df-26fb-d048-830f-696d0d9c66b3++3922+++F66DD92" : {
+    "3d598fef-304e-46d8-940e-79c4e810d450++3018+++DE0F548" : {
 
     },
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++FDD7911" : {
@@ -17,16 +18,18 @@
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++F66DD92" : 0,
+    "4680C418CD5C188F08C8A0DE8DD418B095564232+++412BB86" : 0,
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++DE0F548" : 0,
-    "6a9fa6df-26fb-d048-830f-696d0d9c66b3++3922+++F66DD92" : 0,
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++FDD7911" : 0,
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++9175D62" : 0,
     "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++31E4FEE" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18C4758A-DB41-422A-96B4-A702D4E03E4F",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++F66DD92" : "UniversalView\/UniversalView\/ThirdPart\/Category\/",
+    "4680C418CD5C188F08C8A0DE8DD418B095564232+++412BB86" : "UniversalView\/",
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++DE0F548" : "UniversalView\/UniversalView\/Common\/UIViewController\/",
-    "6a9fa6df-26fb-d048-830f-696d0d9c66b3++3922+++F66DD92" : "UniversalView\/UniversalView\/ThirdPart\/Category\/",
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++FDD7911" : "UniversalView\/UniversalView\/ThirdPart\/Reachability\/",
     "3d598fef-304e-46d8-940e-79c4e810d450++3018+++9175D62" : "UniversalView\/UniversalView\/ThirdPart\/Reachability\/",
     "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++31E4FEE" : "UniversalView\/UniversalView\/ThirdPart\/MBProgressHUD\/"
@@ -51,6 +54,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3d598fef-304e-46d8-940e-79c4e810d450++3018+++FDD7911"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sunnylucy\/UniversalView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4680C418CD5C188F08C8A0DE8DD418B095564232+++412BB86"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.188:4430\/svn\/youpaopao_ios",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++31E4FEE"
@@ -58,7 +66,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.0.188:4430\/svn\/youpaopao_ios",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6a9fa6df-26fb-d048-830f-696d0d9c66b3++3922+++F66DD92"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6a9fa6df-26fb-d048-830f-696d0d9c66b3++2118+++F66DD92"
     }
   ]
 }

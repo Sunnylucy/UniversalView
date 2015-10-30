@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2897C56A1BE3531E00B79510 /* Found.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2897C5691BE3531E00B79510 /* Found.storyboard */; };
+		2897C56D1BE35DD700B79510 /* MainNaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897C56C1BE35DD700B79510 /* MainNaVC.m */; };
+		2897C5731BE3631C00B79510 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2897C5721BE3631C00B79510 /* FirstView.xib */; };
+		2897C5761BE3635000B79510 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2897C5751BE3635000B79510 /* FirstView.m */; };
 		28BCC5951BE31B440078124F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCC5941BE31B440078124F /* SecondViewController.m */; };
 		28BCC5D61BE31F1B0078124F /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BCC5D51BE31F1B0078124F /* UIView+Additions.m */; };
 		28C7EF271BE05FE100B7105A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C7EF261BE05FE100B7105A /* main.m */; };
@@ -72,6 +76,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2897C5691BE3531E00B79510 /* Found.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Found.storyboard; path = ../Found.storyboard; sourceTree = "<group>"; };
+		2897C56B1BE35DD700B79510 /* MainNaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNaVC.h; sourceTree = "<group>"; };
+		2897C56C1BE35DD700B79510 /* MainNaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNaVC.m; sourceTree = "<group>"; };
+		2897C5721BE3631C00B79510 /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		2897C5741BE3635000B79510 /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		2897C5751BE3635000B79510 /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
 		28BCC5931BE31B440078124F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		28BCC5941BE31B440078124F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		28BCC5D41BE31F1B0078124F /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
@@ -182,6 +192,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2897C56E1BE361AF00B79510 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2897C5721BE3631C00B79510 /* FirstView.xib */,
+				2897C5741BE3635000B79510 /* FirstView.h */,
+				2897C5751BE3635000B79510 /* FirstView.m */,
+			);
+			name = View;
+			path = ThirdPart/View;
+			sourceTree = "<group>";
+		};
 		28BCC5D31BE31F1B0078124F /* Additions */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,6 +238,7 @@
 		28C7EF241BE05FE100B7105A /* UniversalView */ = {
 			isa = PBXGroup;
 			children = (
+				2897C56E1BE361AF00B79510 /* View */,
 				28C7EF791BE0B44200B7105A /* ThirdPart */,
 				28C7EF6B1BE080B800B7105A /* ViewController */,
 				28C7EF6A1BE080AF00B7105A /* Model */,
@@ -228,6 +250,7 @@
 				28C7EF2C1BE05FE100B7105A /* ViewController.m */,
 				28C7EF2E1BE05FE100B7105A /* Main.storyboard */,
 				28C7EF341BE05FE100B7105A /* Assets.xcassets */,
+				2897C5691BE3531E00B79510 /* Found.storyboard */,
 				28C7EF361BE05FE100B7105A /* LaunchScreen.storyboard */,
 				28C7EF391BE05FE100B7105A /* Info.plist */,
 				28C7EF311BE05FE100B7105A /* UniversalView.xcdatamodeld */,
@@ -331,6 +354,8 @@
 				28C7EFCA1BE1ECE400B7105A /* MainController.m */,
 				28BCC5931BE31B440078124F /* SecondViewController.h */,
 				28BCC5941BE31B440078124F /* SecondViewController.m */,
+				2897C56B1BE35DD700B79510 /* MainNaVC.h */,
+				2897C56C1BE35DD700B79510 /* MainNaVC.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -577,9 +602,11 @@
 				28C7EFB51BE1BE4B00B7105A /* 1.png in Resources */,
 				28C7EF381BE05FE100B7105A /* LaunchScreen.storyboard in Resources */,
 				28C7EF351BE05FE100B7105A /* Assets.xcassets in Resources */,
+				2897C56A1BE3531E00B79510 /* Found.storyboard in Resources */,
 				28C7EFB71BE1BE4B00B7105A /* 3.png in Resources */,
 				28C7EFC61BE1CB0200B7105A /* Loginbackground.gif in Resources */,
 				28C7EFBF1BE1BE9900B7105A /* supportcat@2x.png in Resources */,
+				2897C5731BE3631C00B79510 /* FirstView.xib in Resources */,
 				28C7EF301BE05FE100B7105A /* Main.storyboard in Resources */,
 				28C7EFB61BE1BE4B00B7105A /* 2.png in Resources */,
 			);
@@ -661,6 +688,7 @@
 				28C7EF951BE0C12600B7105A /* BaseViewController.m in Sources */,
 				28BCC5D61BE31F1B0078124F /* UIView+Additions.m in Sources */,
 				28C7EFDE1BE1EE6C00B7105A /* UIViewController+HUD.m in Sources */,
+				2897C5761BE3635000B79510 /* FirstView.m in Sources */,
 				28C7EF2A1BE05FE100B7105A /* AppDelegate.m in Sources */,
 				28C7EFE41BE1EF8200B7105A /* MBProgressHUD+Add.m in Sources */,
 				28BCC5951BE31B440078124F /* SecondViewController.m in Sources */,
@@ -672,6 +700,7 @@
 				28C7EFE51BE1EF8200B7105A /* MBProgressHUD.m in Sources */,
 				28C7EF8F1BE0BC5500B7105A /* Reachability.m in Sources */,
 				28C7EFC31BE1C34200B7105A /* LoginViewController.m in Sources */,
+				2897C56D1BE35DD700B79510 /* MainNaVC.m in Sources */,
 				28C7EF981BE0C2D200B7105A /* Common.m in Sources */,
 				28C7EFA91BE1B78100B7105A /* EAIntroPage.m in Sources */,
 				28C7EFDC1BE1EE6C00B7105A /* UIResponder+Router.m in Sources */,

@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface MainController : UIViewController
 
+typedef enum{
+    Page_One = 0,
+    Page_Two,
+    Page_Three,
+    Page_Four,
+    
+    
+}PageSelected;
+
+@interface MainController : BaseViewController
+@property (nonatomic, assign) PageSelected m_selectedPage;
 @end
